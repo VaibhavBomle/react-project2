@@ -1,10 +1,4 @@
-import React, { Component } from "react";
-import NewsItem from "./NewsItem";
-
-export class News extends Component {
-
-
-  articles = [
+[
     {
     "source": {
     "id": null,
@@ -266,44 +260,3 @@ export class News extends Component {
     "content": "Ola Electric continued its electric scooter offensive with the new S1 Air model. It has been launched at an introductory price of Rs. 79,999, which is applicable for those who book the scooter on or … [+2462 chars]"
     }
     ]
-
-  constructor(){
-    super();
-    console.log("Hello I am a constructor from News component");
-    this.state = {
-      articles : this.articles,
-      loading: false
-    }
-  }
-
-  async componentDidMount(){
-    console.log("Cmd");
-    let url = "https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=151da54f0d5f4cd4884e7e7571f97d60";
-    let data = await fetch(url);
-    console.log("data=== >",data); 
-    let parseData = await data.json();
-    console.log("parseData=== >",parseData); 
-    this.setState({
-       articles : parseData.articles
-    })
-
-  }
-  render() {
-    console.log("render.........")
-    return (
-      <div className="container my-3">
-        <h2>NewsMonkay - Top Headlines</h2>
-        <div className="row  my-3">
-        {this.state.articles.map((element)=>{
-            return <div className="col-md-4"  key = {element.url}>
-            <NewsItem title={element.title.slice(0,40)} description={element.description?element.description.slice(0,80):element.description} 
-            imageUrl = {element.urlToImage?element.urlToImage:"https://as2.ftcdn.net/v2/jpg/03/65/40/15/1000_F_365401520_zLTViwtTegqkr11c5uBElk8SfgTL8Uty.jpg"} newsUrl = {element.url}/>
-            </div>
-        })}
-        </div>
-      </div>
-    )
-  }
-}
-
-export default News;
