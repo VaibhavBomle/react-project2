@@ -1,262 +1,266 @@
-[
+{
+    "status": "ok",
+    "totalResults": 70,
+    "articles": [
     {
     "source": {
     "id": null,
-    "name": "Moneycontrol"
+    "name": "Hindustan Times"
     },
-    "author": "Sunil Shankar Matkar",
-    "title": "Dalal Street Week Ahead | 10 key factors that will keep traders busy next week - Moneycontrol",
-    "description": "The market will have a special one-hour muhurat trading on October 24 on Diwali, while it will remain shut on October 26 for Diwali Balipratipada",
-    "url": "https://www.moneycontrol.com/news/business/markets/dalal-street-week-ahead-10-key-factors-that-will-keep-traders-busy-next-week-45-9378731.html",
-    "urlToImage": "https://images.moneycontrol.com/static-mcnews/2022/07/SensexBSENSE-770x433.jpg",
-    "publishedAt": "2022-10-23T06:48:08Z",
-    "content": "The market recouped the previous week's losses to stage a strong performance in the week ended October 21, tracking positive global cues and healthy corporate earnings. Most sectors, barring metal, p… [+9191 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "CarToq.com"
-    },
-    "author": "Shantonil Nag",
-    "title": "Mahindra XUV700 gets hit by Toyota Etios: Accident gets recorded on 360 degree camera - CarToq.com",
-    "description": "With unstoppable praises and bookings coming from all corners of the country, the Mahindra XUV700 has become one of the biggest blockbusters of the Indian automotive industry. In addition to the accolades it is winning with its looks, features and mechanicals…",
-    "url": "https://www.cartoq.com/mahindra-xuv700-gets-hit-by-toyota-etios-accident-gets-recorded-on-360-degree-camera/",
-    "urlToImage": "https://www.cartoq.com/wp-content/uploads/2022/10/mahindra-xuv700-vs-toyota-etios-featured.jpg",
-    "publishedAt": "2022-10-23T05:05:20Z",
-    "content": "With unstoppable praises and bookings coming from all corners of the country, the Mahindra XUV700 has become one of the biggest blockbusters of the Indian automotive industry. In addition to the acco… [+2962 chars]"
-    },
-    {
-    "source": {
-    "id": "the-times-of-india",
-    "name": "The Times of India"
-    },
-    "author": "Writankar Mukherjee and Subhrojit Mallick",
-    "title": "Samsung India's FY22 revenue from ops rises 8.6% to ₹82.4k crore - Economic Times",
-    "description": "Samsung lost its top position as the largest consumer-facing MNC in the country in FY22 to Maruti Suzuki, when the Japanese car maker reported revenue of ₹88,295 crore. In FY21, Samsung India had pipped Maruti to the top spot.",
-    "url": "https://economictimes.indiatimes.com/news/india/samsung-indias-fy22-revenue-from-ops-rises-8-6-to-82-4k-crore/articleshow/95039815.cms",
-    "urlToImage": "https://img.etimg.com/thumb/msid-95039881,width-1070,height-580,imgsize-21132,overlay-economictimes/photo.jpg",
-    "publishedAt": "2022-10-22T23:54:00Z",
-    "content": "Samsung India's revenue from operations rose 8.6% to 82,451 crore in the financial year 2021-22 (FY22), driven by its mobile phone business, regulatory filings sourced from business intelligence plat… [+2200 chars]"
+    "author": "HT Sports Desk",
+    "title": "Pakistan vs Zimbabwe Live Score, T20 World Cup 2022 - Hindustan Times",
+    "description": "Pakistan vs Zimbabwe Highlights, T20 World Cup 2022 Today's Match: Sikandar Raza emerged as the standout bowler from Zimbabwe camp as they defeated Pakistan by 1 run in a low-scoring thriller. Catch the Highlights of PAK vs ZIM:",
+    "url": "https://www.hindustantimes.com/cricket/pakistan-vs-zimbabwe-live-cricket-score-t20-world-cup-2022-today-match-pak-vs-zim-latest-scorecard-at-perth-101666863686243.html",
+    "urlToImage": "https://images.hindustantimes.com/img/2022/10/27/1600x900/babar-rizwan-sans-helmet-getty_1663315723430_1666875768595_1666875768595.jpg",
+    "publishedAt": "2022-10-27T14:35:57Z",
+    "content": "Pakistan: Mohammad Rizwan(w), Babar Azam(c), Shan Masood, Iftikhar Ahmed, Shadab Khan, Haider Ali, Mohammad Nawaz, Asif Ali, Shaheen Afridi, Haris Rauf, Naseem Shah, Khushdil Shah, Fakhar Zaman, Moha… [+281 chars]"
     },
     {
     "source": {
     "id": null,
-    "name": "Bitcoin.com"
+    "name": "SPORTbible"
     },
-    "author": "Kevin Helms",
-    "title": "Tesla CEO Elon Musk Says Recession Could Last Until Spring 2024 – Economics Bitcoin News - Bitcoin News",
-    "description": "Tesla CEO Elon Musk expects a global recession to last until the spring of 2024. Musk believes that North America’s in pretty good health.",
-    "url": "https://news.bitcoin.com/tesla-ceo-elon-musk-says-global-recession-could-last-until-spring-2024/",
-    "urlToImage": "https://static.news.bitcoin.com/wp-content/uploads/2022/10/elon-musk-recession.jpg",
-    "publishedAt": "2022-10-22T23:38:51Z",
-    "content": "Tesla and Spacex CEO Elon Musk expects a global recession to last until the spring of 2024. Musk added that his two companies are in good positions but many others are not. “Recessions do have a silv… [+3028 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Livemint"
-    },
-    "author": "Livemint",
-    "title": "Indraprastha Gas records 95% jump in Q2 revenue to ₹3,922 cr, PAT up 4% | Mint - Mint",
-    "description": "In Q2FY23, the company's revenue from operations stood at  ₹3,922.02 crore increasing by a whopping 94.55% as against  ₹2,015.99 crore in Q2 of FY22.",
-    "url": "https://www.livemint.com/companies/company-results/indraprastha-gas-records-95-jump-in-q2-revenue-to-rs-3-922-cr-pat-up-4-11666459339492.html",
-    "urlToImage": "https://images.livemint.com/img/2022/10/22/600x338/httpsblankpaperhtdigitalincms-backend-service-mtim_1666459720315_1666459720545_1666459720545.JPG",
-    "publishedAt": "2022-10-22T17:32:28Z",
-    "content": "Noida-based natural gas distributor, Indraprastha Gas garnered a standalone net profit of 416.15 crore for the quarter ending September 30, 2022 (Q2FY23) rising by 3.9% from 400.54 crore in the same … [+2067 chars]"
+    "author": "Daniel Marland",
+    "title": "World Cup supercomputer predicts England fate and Cristiano Ronaldo vs Lionel Messi final - SPORTbible",
+    "description": "A World Cup supercomputer has predicted England will lose in the semi-finals to Portugal - who will then lose the final to Argentina.",
+    "url": "https://www.sportbible.com/football/world-cup-supercomputer-england-cristiano-ronaldo-lionel-messi-winner-20221027",
+    "urlToImage": "https://images.ladbible.com/resize?type=jpeg&quality=70&width=1200&fit=contain&dpr=1&url=https://eu-images.contentstack.com/v3/assets/blta90d05ad41a54a71/blt204f537da5e061d5/635a80eae379202e7adf6f22/Untitled_design_-_2022-10-27T140018.354.png",
+    "publishedAt": "2022-10-27T13:03:01Z",
+    "content": "A World Cup supercomputer has predicted England will lose in the semi-finals to Portugal - who will then face Lionel Messi and Argentina in the final.\r\nGareth Southgate's side are on a poor run of fo… [+2028 chars]"
     },
     {
     "source": {
     "id": null,
-    "name": "NDTV News"
+    "name": "The Indian Express"
+    },
+    "author": "Sports Desk",
+    "title": "India vs Netherlands, T20 World Cup 2022 Highlights: Clinical IND thump NED by 56 runs - The Indian Express",
+    "description": "T20 World Cup 2022, India vs Pakistan Live Scorecard, Star Sports Network, Disney + Hotstar Live: India take on Netherlands to make it 2 wins out of 2.",
+    "url": "https://indianexpress.com/article/sports/cricket/india-vs-netherlands-live-cricket-score-t20-world-cup-2022-8232038/",
+    "urlToImage": "https://images.indianexpress.com/2022/10/ind-vs-ned.jpg",
+    "publishedAt": "2022-10-27T12:37:41Z",
+    "content": "Tim Pringle drew immediate comparisons with Daniel Vettori. Like the latter, he bowls left-arm spin, has a similar action, perhaps a touch slower than Vettori, is spectacled, keeps his hair unkempt, … [+1058 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "YouTube"
     },
     "author": null,
-    "title": "India's Economy Lights Up This Diwali After Covid Dampener. Here's Why - NDTV Profit",
-    "description": "Indian shoppers are back in force online and in stores, splurging this festive season after the coronavirus pandemic damped celebrations and consumption in previous years.",
-    "url": "https://www.ndtv.com/business/indias-economy-lights-up-this-diwali-after-covid-dampener-heres-why-3455879",
-    "urlToImage": "https://c.ndtvimg.com/2022-10/2r5po00g_diwali-afp_625x300_22_October_22.jpg",
-    "publishedAt": "2022-10-22T17:10:35Z",
-    "content": "With the economic recovery taking shape, Indian households expect to spend more. (Representational)\r\nIndian shoppers are back in force online and in stores, splurging this festive season after the co… [+3329 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Dsij.in"
-    },
-    "author": "Karan Dsij",
-    "title": "IDFC First Bank is the “next HDFC Bank” - Dalal Street Investment Journal",
-    "description": "With the bank’s profit after tax has grown consistently for the fifth consecutive quarter and the management is optimistic about maintaining their growth momentum on the basis of strong...",
-    "url": "https://www.dsij.in/dsijarticledetail/is-idfc-first-bank-the-next-hdfc-bank",
-    "urlToImage": "https://www.dsij.in/Portals/0/EasyDNNnews/27004/logo-idfc-first-bank-1200.jpg",
-    "publishedAt": "2022-10-22T16:22:04Z",
-    "content": "Is IDFC First Bank, the next HDFC Bank?\r\nIDFC First Bank has soared about 46 per cent in the last six months and it has been one of the top performing banks from the Indian Private sector banks space… [+3442 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Livemint"
-    },
-    "author": "Pooja Sitaram Jaiswar",
-    "title": "Tech Mahindra which paid 900% dividend in FY22 may surprise investors on 1st Nov | Mint - Mint",
-    "description": "Along with the dividend proposal, the company's board will also consider and approve the financial performance for the second quarter ending September 30, 2022 (Q2FY23).",
-    "url": "https://www.livemint.com/market/stock-market-news/tech-mahindra-which-paid-900-dividend-in-fy22-may-surprise-investors-on-1st-nov-11666453828209.html",
-    "urlToImage": "https://images.livemint.com/img/2022/10/22/600x338/369170800_0-16_1618420008632_1666453953472_1666453953472.jpg",
-    "publishedAt": "2022-10-22T15:55:44Z",
-    "content": "IT major, Tech Mahindra will be considering an interim dividend for FY23 on November 1. Along with the dividend proposal, the company's board will also consider and approve the financial performance … [+2950 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "YourStory"
-    },
-    "author": "Ayshwaria Lakshmi",
-    "title": "Ola is a place for ambitious people: Bhavish Aggarwal - YourStory",
-    "description": "Founder and Group CEO of Ola responds to the recent allegation of a \"hostile work culture\" at Ola Electric.",
-    "url": "https://yourstory.com/2022/10/ola-place-ambitious-people-bhavish-aggarwal/amp",
-    "urlToImage": "https://images.yourstory.com/cs/2/a9efa9c02dd911e9adc52d913c55075e/Final-01-05-1629128293683.png",
-    "publishedAt": "2022-10-22T15:45:00Z",
-    "content": "Responding to the allegation of a \"hostile work culture\" at Ola Electric, Bhavish Aggarwal, Founder and Group CEO, Ola, said Ola is a \"hardworking\" company and a place for people who are \"ambitious\".… [+2171 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Livemint"
-    },
-    "author": "Vipul Das",
-    "title": "Multibagger chemical stock declares 250% dividend, sales grew by 24% in Q2 | Mint - Mint",
-    "description": "With a market valuation of  ₹21,921.06 Cr, Navin Fluorine International Limited is a large-cap company that engages in the chemical industry.",
-    "url": "https://www.livemint.com/market/stock-market-news/multibagger-chemical-stock-declares-250-dividend-sales-grew-by-24-in-q2-11666451857858.html",
-    "urlToImage": "https://images.livemint.com/img/2022/10/22/600x338/KVP8IM6W_1600274980295_1600274984745_1666451908898_1666451908898.jpg",
-    "publishedAt": "2022-10-22T15:25:54Z",
-    "content": "With a market valuation of 21,921.06 Cr, Navin Fluorine International Limited is a large-cap company that engages in the chemical industry. One of the largest and most reputable Indian makers of spec… [+4094 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "NDTV News"
-    },
-    "author": null,
-    "title": "Akash Ambani, Wife Shloka Pray At Rajasthan's Shrinathji Temple Ahead Of 5G Launch - NDTV",
-    "description": "Reliance Jio chairman, Akash Ambani and his wife, Shloka Ambani offered prayers at Shrinathji Temple in Nathdwara, Rajasthan today. Akash Ambani also launched Jio 5G services in Rajasthan from the Shrinathji temple.",
-    "url": "https://www.ndtv.com/india-news/akash-ambani-wife-shloka-pray-at-rajasthans-shrinathji-temple-ahead-of-5g-launch-3455707",
-    "urlToImage": "https://c.ndtvimg.com/2022-10/iplqpcf8_akash-ambani-shloka-ambani-shrinathji-temple-ani_625x300_22_October_22.jpg",
-    "publishedAt": "2022-10-22T15:24:06Z",
-    "content": "Reliance Jio chairman, Akash and Shloka Ambani offered prayers at Shrinathji Temple.\r\nNew Delhi: Reliance Jio chairman, Akash Ambani and his wife, Shloka Ambani offered prayers at Shrinathji Temple i… [+1192 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "India.com"
-    },
-    "author": "Mohit Bhardwaj",
-    "title": "Hyundai i20 diesel to be DISCONTINUED by next year? New emission norms to kill various models - Zee News",
-    "description": "Yes! It is not out and loud - new stringent RDE (Real Driving Emission) norms are set to kick in by April 1, next year. Therefore, carmakers will tune their cars to comply with new emission norms.",
-    "url": "https://zeenews.india.com/auto/hyundai-i20-diesel-to-be-discontinued-by-next-year-new-emission-norms-to-kill-various-models-2525541.html",
-    "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2022/10/22/1106930-hyundai-i20.jpg",
-    "publishedAt": "2022-10-22T14:44:03Z",
-    "content": "Yes! It is not out and loud - new stringent RDE (Real Driving Emission) norms are set to kick in by April 1, next year. Therefore, carmakers will tune their cars to comply with new emission norms. Ho… [+1559 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Analytics Insight"
-    },
-    "author": null,
-    "title": "How IT Technologies are Extending the Work From Home Scenario - Analytics Insight",
-    "description": null,
-    "url": "https://www.analyticsinsight.net/how-it-technologies-are-extending-the-work-from-home-scenario/",
-    "urlToImage": null,
-    "publishedAt": "2022-10-22T14:37:15Z",
+    "title": "'DISAPPOINTING!' Gab & Juls react to Barcelona's loss vs. Bayern in the Champions League | ESPN FC - ESPN UK",
+    "description": "----Subscribe to ESPN UK: http://bit.ly/1oGUzVAFollow ESPN UK across multiple platforms:https://en-gb.facebook.com/ESPNUKhttps://twitter.com/ESPNUKhttps://ww...",
+    "url": "https://www.youtube.com/watch?v=XKN166FN-1c",
+    "urlToImage": "https://i.ytimg.com/vi/XKN166FN-1c/maxresdefault.jpg",
+    "publishedAt": "2022-10-27T12:00:31Z",
     "content": null
     },
     {
     "source": {
-    "id": null,
-    "name": "Moneycontrol"
+    "id": "espn-cric-info",
+    "name": "ESPN Cric Info"
     },
-    "author": "Nikhil Patwardhan",
-    "title": "Unacademy’s losses nearly double to Rs 2,848 crore in FY22 on higher ESOP costs - Moneycontrol",
-    "description": "Unacademy, however, reported an over 80 percent rise in operating revenue to Rs 719 crore from Rs 398 crore a year earlier. Its total income surged to Rs 845 crore in FY22 from Rs 464 crore a year earlier, thanks to a 2X rise in its other income to Rs 125 cro…",
-    "url": "https://www.moneycontrol.com/news/business/startup/unacademys-losses-nearly-double-to-rs-2848-crore-in-fy22-on-higher-esop-costs-9377601.html",
-    "urlToImage": "https://images.moneycontrol.com/static-mcnews/2021/08/WhatsApp-Image-2021-08-02-at-9.28.13-AM-770x433.jpeg",
-    "publishedAt": "2022-10-22T14:32:16Z",
-    "content": "SoftBank-backed Unacademys losses nearly doubled in FY22 (2021-22) as the edtech startups ESOP (employee stock ownership plan) costs rose 2.5X during the period, in another instance of a startup repo… [+5049 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Livemint"
-    },
-    "author": "Vipul Das",
-    "title": "Multibagger stock climbs 600% in 3 years, Board recommends 2:1 bonus shares | Mint - Mint",
-    "description": "Commercial Syn Bags Ltd is a small-cap firm that competes in the packaging industry with a market valuation of  ₹405.91 crore.",
-    "url": "https://www.livemint.com/market/stock-market-news/multibagger-stock-climbs-600-in-3-years-board-recommends-2-1-bonus-shares-11666448160196.html",
-    "urlToImage": "https://images.livemint.com/img/2022/10/22/600x338/TAIWAN-MAICOIN-8_1663256785336_1663256785336_1666448186088_1666448186088.jpg",
-    "publishedAt": "2022-10-22T14:20:27Z",
-    "content": "Commercial Syn Bags Ltd is a small-cap firm that competes in the packaging industry with a market valuation of 405.91 crore. The company is a leading manufacturer and exporter of FIBC, Big Bags, and … [+4761 chars]"
+    "author": "Andrew Miller",
+    "title": "Match Preview - Australia vs England, ICC Men's T20 World Cup 2022/23, 26th Match, Group 1 - ESPNcricinfo",
+    "description": "To the winner, a chance to keep a route to the semi-finals in their own hands. To the loser, the mounting prospect of early elimination",
+    "url": "https://www.espncricinfo.com/series/icc-men-s-t20-world-cup-2022-23-1298134/australia-vs-england-26th-match-group-1-1298160/match-preview",
+    "urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/347400/347451.6.jpg",
+    "publishedAt": "2022-10-27T11:36:30Z",
+    "content": "PreviewTo the winner, a chance to keep a route to the semi-finals in their own hands. To the loser, the mounting prospect of early elimination\r\nAndrew Miller is UK editor of ESPNcricinfo. @miller_cri… [+3 chars]"
     },
     {
     "source": {
     "id": null,
-    "name": "Livemint"
-    },
-    "author": "Pooja Sitaram Jaiswar",
-    "title": "Gold vs Bitcoin: Which haven is a better investment this Diwali? | Mint - Mint",
-    "description": "Gold is also seen as a so-called haven against hedging returns amidst macroeconomic uncertainties. But gold is not alone seen as a haven anymore.",
-    "url": "https://www.livemint.com/money/personal-finance/gold-vs-bitcoin-which-haven-is-a-better-investment-this-diwali-11666446830567.html",
-    "urlToImage": "https://images.livemint.com/img/2022/10/22/600x338/Bitcoin_1663051322352_1666447108857_1666447108857.JPG",
-    "publishedAt": "2022-10-22T14:00:08Z",
-    "content": "The Diwali season has kickstarted with a bang from Saturday onward with Dhanteras where usually the demand for gold is traditionally on the rise. In India, buying gold on Dhanteras is somewhat very c… [+4974 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Moneycontrol"
-    },
-    "author": "Moneycontrol News",
-    "title": "ICICI Bank board reappoints Sandeep Bakhshi as MD and CEO for three years - Moneycontrol",
-    "description": "The current tenure of Bakhshi was until October 3, 2023. The re-appointment period to start from October 4, 2023.",
-    "url": "https://www.moneycontrol.com/news/business/icici-bank-board-reappoints-sandeep-bakhshi-as-md-and-ceo-for-three-years-9377461.html",
-    "urlToImage": "https://images.moneycontrol.com/static-mcnews/2021/04/ICICI-Bank-for-insurance-story-770x433.jpg",
-    "publishedAt": "2022-10-22T12:51:38Z",
-    "content": "The board of directors of ICICI Bank has re-appointed Sandeep Bakhshi as the bank's managing director (MD) and chief executive officer (CEO) for a period of three years, the bank said in a regulatory… [+603 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Moneycontrol"
-    },
-    "author": "PTI",
-    "title": "Reliance becomes first Indian company to post earnings call on metaverse - Moneycontrol",
-    "description": "The metaverse earnings call, which can be accessed through any device (even a smartphone), was produced in partnership with GMetri — a no-code metaverse creation platform, sources said. One does not need to wear an AR/VR headgear to access it.",
-    "url": "https://www.moneycontrol.com/news/business/reliance-becomes-first-indian-company-to-post-earnings-call-on-metaverse-9377291.html",
-    "urlToImage": "https://images.moneycontrol.com/static-mcnews/2021/10/reliance-industries-770x433.jpg",
-    "publishedAt": "2022-10-22T12:01:41Z",
-    "content": "Reliance Industries Limited (RIL) posted the proceedings of its second quarter earnings call on the metaverse, becoming the first Indian firm to use the medium to engage with its stakeholders.\r\nThe m… [+1785 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Thewire.in"
+    "name": "YouTube"
     },
     "author": null,
-    "title": "Never Mind the Dollar Strengthening, a Diving Rupee Is Wrecking Domestic Macroeconomic Stability - The Wire",
-    "description": "Efforts to prop up the currency have failed to significantly keep it from hovering near the all-time low amid a dovish pivot by the RBI, soaring inflation, and trade imbalances.",
-    "url": "https://thewire.in/economy/never-mind-the-dollar-strengthening-a-diving-rupee-is-wrecking-domestic-macroeconomic-stability",
-    "urlToImage": "https://cdn.thewire.in/wp-content/uploads/2021/02/01212909/download.jpeg",
-    "publishedAt": "2022-10-22T12:00:39Z",
-    "content": "The Indian rupee is at 82.7 per dollar, rebounding from a record low of 83 on October 20, amid reports that the Reserve Bank of India resumed its dollar selling activity through state-run banks to su… [+8446 chars]"
+    "title": "Maxi the wickie? Back-up 'keeper contender emerges | ICC Men's T20 World Cup 2022 - cricket.com.au",
+    "description": "Download our app: https://app.cricket.com.au/In light of Matthew Wade's Covid diagnosis, Glenn Maxwell tested out some fresh wicketkeeping gloves at Australi...",
+    "url": "https://www.youtube.com/watch?v=7FkIXzgMQ5I",
+    "urlToImage": "https://i.ytimg.com/vi/7FkIXzgMQ5I/maxresdefault.jpg",
+    "publishedAt": "2022-10-27T11:00:47Z",
+    "content": null
+    },
+    {
+    "source": {
+    "id": "espn-cric-info",
+    "name": "ESPN Cric Info"
+    },
+    "author": "Andrew McGlashan",
+    "title": "'An unbelievable rollercoaster ride' - Rossouw lives his South Africa dream, and how! - ESPNcricinfo",
+    "description": "His numbers since his international comeback are eye-watering: \"it's been a long journey but it's not finished yet, hopefully\"",
+    "url": "https://www.espncricinfo.com/story/t20-world-cup-ban-vs-sa-an-unbelievable-rollercoaster-ride-rilee-rossouw-lives-his-south-africa-dream-1341901",
+    "urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/348200/348298.6.jpg",
+    "publishedAt": "2022-10-27T09:32:00Z",
+    "content": "NewsHis numbers since his international comeback are eye-watering: \"it's been a long journey but it's not finished yet, hopefully\""
     },
     {
     "source": {
     "id": null,
-    "name": "Carandbike.com"
+    "name": "NDTV News"
+    },
+    "author": "NDTV Sports Desk",
+    "title": "\"Red Letter Day\": Harmanpreet Kaur Reacts To BCCI's Equal Pay Announcement - NDTV Sports",
+    "description": "Indian women's cricket team captain Harmanpreet Kaur on Thursday took to Twitter to laud the Board of Control for Cricket in India's decision to give the same match fee to contracted women's cricketer as received by their male counterparts.",
+    "url": "https://sports.ndtv.com/cricket/red-letter-day-harmanpreet-kaur-reacts-to-bccis-equal-pay-announcement-3466006",
+    "urlToImage": "https://c.ndtvimg.com/2022-09/vs33rm3o_harmanpreet-kaur-twitter_625x300_22_September_22.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=675",
+    "publishedAt": "2022-10-27T09:02:15Z",
+    "content": "Indian women's cricket team captain Harmanpreet Kaur on Thursday took to Twitter to laud the Board of Control for Cricket in India's decision to give the same match fee to contracted women's crickete… [+3358 chars]"
+    },
+    {
+    "source": {
+    "id": "espn-cric-info",
+    "name": "ESPN Cric Info"
+    },
+    "author": "ESPNcricinfo staff",
+    "title": "Sri Lanka replace injured Binura with Asitha - ESPNcricinfo",
+    "description": "Matheesha Pathirana and Niroshan Dickwella also called up to Australia as standbys for the injury-ridden squad",
+    "url": "https://www.espncricinfo.com/story/mens-t20-world-cup-2022-sri-lanka-replace-injured-binura-fernando-with-asitha-fernando-1341781",
+    "urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/345100/345178.6.jpg",
+    "publishedAt": "2022-10-27T08:37:30Z",
+    "content": "NewsMatheesha Pathirana and Niroshan Dickwella also called up to Australia as standbys for the injury-ridden squad"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "SPORTbible"
+    },
+    "author": "Jack Kenmare",
+    "title": "Emerson Royal attempts 'no-look pass' and it goes out for a goal kick, Conte's reaction says it all - SPORTbible",
+    "description": "The Spurs defender attempted the no-look pass in the 80th minute and social media were quick to react.",
+    "url": "https://www.sportbible.com/football/emerson-royal-spurs-sporting-champions-league-20221027",
+    "urlToImage": "https://images.ladbible.com/resize?type=jpeg&quality=70&width=1200&fit=contain&dpr=1&url=https://eu-images.contentstack.com/v3/assets/blta90d05ad41a54a71/bltb9f2067487b56558/635a2de7ae4aac1b842c3825/picture_-_2022-10-27T080114.828.png",
+    "publishedAt": "2022-10-27T07:31:15Z",
+    "content": "Emerson Royal tried and failed to pull of an audacious 'no-look pass' in the latter stages of Spurs' Champions League clash against Sporting CP and Antonio Conte didn't look too pleased on the touchl… [+1964 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Football.London"
+    },
+    "author": "Jake Stokes",
+    "title": "Every confirmed team Chelsea can face in Champions League Round of 16 amid Graham Potter debut - Football.London",
+    "description": "Graham Potter will be keeping tabs on who Chelsea can and can't face in the Champions League round of 16 now that the Blues have confirmed qualification from the group",
+    "url": "https://www.football.london/chelsea-fc/news/every-team-chelsea-champions-league-25364915",
+    "urlToImage": "https://i2-prod.football.london/incoming/article25365109.ece/ALTERNATES/s1200/1_GettyImages-1423703576.jpg",
+    "publishedAt": "2022-10-27T07:21:26Z",
+    "content": "Chelsea booked themselves a place in the Champions League Round of 16 with a 2-1 win over RB Salzburg. The Blues currently sit at the top of Group E on ten points, with a clash against fourth-placed … [+4021 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Barca Blaugranes"
+    },
+    "author": "Renato Gonçalves",
+    "title": "Xavi gives his verdict on Bayern Munich defeat, Barcelona’s Champions League exit - Barca Blaugranes",
+    "description": "The coach called the events of Wednesday night a “tough blow”",
+    "url": "https://www.barcablaugranes.com/barcelona-uefa-champions-league/2022/10/27/23425635/xavi-gives-his-verdict-on-bayern-munich-defeat-barcelonas-champions-league-exit",
+    "urlToImage": "https://cdn.vox-cdn.com/thumbor/H72mqB9A3BsVmpGMgbAZYLlbdLY=/0x0:5685x2976/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24144141/1436829587.jpg",
+    "publishedAt": "2022-10-27T07:00:00Z",
+    "content": "Barcelona boss Xavi Hernández spoke to the media after his sides embarrassing 3-0 defeat against Bayern Munich at the Spotify Camp Nou to end their Champions League journey in the group stage for the… [+1776 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Cricbuzz"
     },
     "author": null,
-    "title": "Ola S1 Air Electric Scooter Launched In India; Has Introductory Price Of Rs. 79,999 - carandbike",
-    "description": "Ola Electric launched its S1 Air electric scooter today, with an introductory price of Rs. 79,999. It is applicable only for people who book the scooter on or before October 24, 2022.",
-    "url": "https://www.carandbike.com/news/ola-s1-air-electric-scooter-launched-in-india-has-introductory-price-of-rs-79-999-3203162",
-    "urlToImage": "https://images.carandbike.com/cms/articles/3203151/articles/3203162/small_Ola_S1_Air_2022_10_22_T10_41_01_029_Z_d098d5e86e.jpeg",
-    "publishedAt": "2022-10-22T11:26:15Z",
-    "content": "Ola Electric continued its electric scooter offensive with the new S1 Air model. It has been launched at an introductory price of Rs. 79,999, which is applicable for those who book the scooter on or … [+2462 chars]"
+    "title": "T20 WC 2022 | Bharat Arun writes on India vs Pakistan cricket match at MCG | Cricbuzz.com - Cricbuzz",
+    "description": "Virat Kohli understandably stole the headlines, but there were also bowling performances that suggested the future is bright for India in this tournament, writes new columnist Bharat Arun",
+    "url": "https://www.cricbuzz.com/cricket-news/124286/what-pleased-me-about-indias-rousing-start-in-world-cup-2022",
+    "urlToImage": "http://www.cricbuzz.com/a/img/v1/600x400/i1/c245973/virat-kohli-understandably-sto.jpg",
+    "publishedAt": "2022-10-27T06:47:51Z",
+    "content": null
+    },
+    {
+    "source": {
+    "id": "espn-cric-info",
+    "name": "ESPN Cric Info"
+    },
+    "author": "Mohammad Isam",
+    "title": "Tillakaratne to be head coach of Bangladesh women's team - ESPNcricinfo",
+    "description": "Former Sri Lanka women's team coach has signed a two-year deal",
+    "url": "https://www.espncricinfo.com/story/hashan-tillakaratne-to-be-head-coach-of-bangladesh-womens-team-1341835",
+    "urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/348200/348255.6.jpg",
+    "publishedAt": "2022-10-27T06:32:49Z",
+    "content": "NewsFormer Sri Lanka women's team coach has signed a two-year deal\r\nHashan Tillakaratne poses for the camera  •  South China Morning Post via Getty Images\r\nHashan Tillakaratne, the former Sri Lanka c… [+1735 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Mirror Online"
+    },
+    "author": "Dan Marsh",
+    "title": "Man Utd predicted XI vs Sheriff after Erik ten Hag clears up Cristiano Ronaldo situation - The Mirror",
+    "description": "Manchester United will resume their Europa League campaign on Thursday night when they welcome Moldovan champions Sheriff Tiraspol to Old Trafford and Erik ten Hag could shuffle his pack",
+    "url": "https://www.mirror.co.uk/sport/football/news/manutd-ten-hag-ronaldo-news-28339335",
+    "urlToImage": "https://i2-prod.mirror.co.uk/incoming/article28339435.ece/ALTERNATES/s1200/0_MIRRORMANUTD.jpg",
+    "publishedAt": "2022-10-27T06:19:57Z",
+    "content": "It's been an eventful week for Erik ten Hag, who quickly saw one of Manchester United's most impressive displays of the season overshadowed by Cristiano Ronaldo. \r\n The Portuguese forward stormed dow… [+2679 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "SportsCafe"
+    },
+    "author": "SportsCafe Desk",
+    "title": "ICC World T20 | Twitter reacts to Shakib Al Hasan choosing to walk off in bizarre DRS U-turn - SportsCafe",
+    "description": "Cricket is such a fast-paced game that players often rely on pure instinct and muscle memory to rescue themselves from dire situations. However, Shakib Al Hasan decided to go against the golden rule and shunned his instincts to call for DRS after being LBW, o…",
+    "url": "https://sportscafe.in/cricket/articles/2022/oct/27/icc-world-t-20-twitter-reacts-to-shakib-al-hasan-choosing-to-walk-off-in-bizarre-drs-u-turn",
+    "urlToImage": "https://cdn-images.spcafe.in/img/es3-cfill-w800-h418/articles/Cricket_1/shakib_al_hasan_new_getty.jpg",
+    "publishedAt": "2022-10-27T06:12:24Z",
+    "content": "But Shakib was not content with the decision and immediately signalled for a review. Even though there was no question the ball would hit the stumps, it seemed to have pitched outside leg and carried… [+418 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "NDTV News"
+    },
+    "author": "NDTV Sports Desk",
+    "title": "Watch: The Slo-Mo Video Of Virat Kohli's Twin Sixes Against Haris Rauf Is Taking Internet By Storm - NDTV Sports",
+    "description": "Virat Kohli's back-to-back sixes against Hardis Rauf in the 19th over against Pakistan was the highlight of the match. Now, a slo-mo version of the two hits is taking internet by storm.",
+    "url": "https://sports.ndtv.com/t20-world-cup-2022/watch-the-slo-mo-video-of-virat-kohlis-twin-sixes-against-haris-rauf-is-taking-internet-by-storm-3465182",
+    "urlToImage": "https://c.ndtvimg.com/2022-10/g0n1iep_virat-kohli-_625x300_27_October_22.jpg?im=FitAndFill,algorithm=dnn,width=1200,height=675",
+    "publishedAt": "2022-10-27T06:01:00Z",
+    "content": "The memories of Virat Kohli inspiring India to a thrilling 4-wicket victory over Pakistan in the T20 World Cup 2022 showdown on Sunday are still fresh in the minds of fans. The iconic batter slammed … [+1540 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Cricbuzz"
+    },
+    "author": null,
+    "title": "The chequered art of legspin, with Karthik Meiyappan | Cricbuzz.com - Cricbuzz - Cricbuzz",
+    "description": "The hat-trick against Sri Lanka wasn't just a one-off moment of concentration for Karthik. His back story tells why",
+    "url": "https://www.cricbuzz.com/cricket-news/124284/the-chequered-art-of-legspin-with-karthik-meiyappan",
+    "urlToImage": "http://www.cricbuzz.com/a/img/v1/600x400/i1/c245958/the-hat-trick-against-sri-lank.jpg",
+    "publishedAt": "2022-10-27T05:23:23Z",
+    "content": "The hat-trick against Sri Lanka wasn't just a one-off moment of concentration for Karthik. His back story tells why ©Getty \r\n\"The art of leg-spin is not just bowling a leg-break; the art of leg-spin … [+8816 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "The Athletic"
+    },
+    "author": "Laurie Whitwell, Pol Ballus",
+    "title": "David de Gea’s Manchester United future: A new deal on reduced terms? - The Athletic",
+    "description": "The goalkeeper is out of contract in the summer, although there is an option of another year or a renegotiated deal",
+    "url": "https://theathletic.com/3732056/2022/10/27/manchester-united-david-de-gea-future/",
+    "urlToImage": "https://cdn.theathletic.com/app/uploads/2022/10/26095220/Manchester-United-David-de-Gea-Chelsea-scaled-e1666792425398-1024x681.jpg",
+    "publishedAt": "2022-10-27T04:16:38Z",
+    "content": "David de Gea has featured in every single minute of Manchester Uniteds season so far, but that consistency belies the uncertainty facing the clubs goalkeeping department beyond this campaign.\r\nIt cou… [+7248 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Hindustan Times"
+    },
+    "author": "HT Sports Desk",
+    "title": "Sourav Ganguly's one-line BCCI verdict on India's protest against Sydney food - Hindustan Times",
+    "description": "Although the BCCI did not lodge any official complaint the Indian team management did let the ICC know about their disappointment regarding the food on offer at the SCG. Former India captain Sourav Ganguly, who was also the BCCI president till a couple of wee…",
+    "url": "https://www.hindustantimes.com/cricket/sourav-ganguly-s-one-line-bcci-comment-on-india-s-complaint-against-cold-food-at-sydney-in-t20-world-cup-101666843292152.html",
+    "urlToImage": "https://images.hindustantimes.com/img/2022/10/27/1600x900/CRICKET-IND-BCCI-0_1666843726829_1666843726829_1666843752705_1666843752705.jpg",
+    "publishedAt": "2022-10-27T04:13:05Z",
+    "content": "India's preparations for their T20 World Cup Super 12 Group 2 match against the Netherlands in Sydney have not been on the expected lines. While there haven't been any on-field issues, the Rohit Shar… [+2281 chars]"
     }
     ]
+    }

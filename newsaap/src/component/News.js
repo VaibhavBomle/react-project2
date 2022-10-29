@@ -3,290 +3,58 @@ import NewsItem from "./NewsItem";
 
 export class News extends Component {
 
-
-  articles = [
-    {
-    "source": {
-    "id": null,
-    "name": "Moneycontrol"
-    },
-    "author": "Sunil Shankar Matkar",
-    "title": "Dalal Street Week Ahead | 10 key factors that will keep traders busy next week - Moneycontrol",
-    "description": "The market will have a special one-hour muhurat trading on October 24 on Diwali, while it will remain shut on October 26 for Diwali Balipratipada",
-    "url": "https://www.moneycontrol.com/news/business/markets/dalal-street-week-ahead-10-key-factors-that-will-keep-traders-busy-next-week-45-9378731.html",
-    "urlToImage": "https://images.moneycontrol.com/static-mcnews/2022/07/SensexBSENSE-770x433.jpg",
-    "publishedAt": "2022-10-23T06:48:08Z",
-    "content": "The market recouped the previous week's losses to stage a strong performance in the week ended October 21, tracking positive global cues and healthy corporate earnings. Most sectors, barring metal, p… [+9191 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "CarToq.com"
-    },
-    "author": "Shantonil Nag",
-    "title": "Mahindra XUV700 gets hit by Toyota Etios: Accident gets recorded on 360 degree camera - CarToq.com",
-    "description": "With unstoppable praises and bookings coming from all corners of the country, the Mahindra XUV700 has become one of the biggest blockbusters of the Indian automotive industry. In addition to the accolades it is winning with its looks, features and mechanicals…",
-    "url": "https://www.cartoq.com/mahindra-xuv700-gets-hit-by-toyota-etios-accident-gets-recorded-on-360-degree-camera/",
-    "urlToImage": "https://www.cartoq.com/wp-content/uploads/2022/10/mahindra-xuv700-vs-toyota-etios-featured.jpg",
-    "publishedAt": "2022-10-23T05:05:20Z",
-    "content": "With unstoppable praises and bookings coming from all corners of the country, the Mahindra XUV700 has become one of the biggest blockbusters of the Indian automotive industry. In addition to the acco… [+2962 chars]"
-    },
-    {
-    "source": {
-    "id": "the-times-of-india",
-    "name": "The Times of India"
-    },
-    "author": "Writankar Mukherjee and Subhrojit Mallick",
-    "title": "Samsung India's FY22 revenue from ops rises 8.6% to ₹82.4k crore - Economic Times",
-    "description": "Samsung lost its top position as the largest consumer-facing MNC in the country in FY22 to Maruti Suzuki, when the Japanese car maker reported revenue of ₹88,295 crore. In FY21, Samsung India had pipped Maruti to the top spot.",
-    "url": "https://economictimes.indiatimes.com/news/india/samsung-indias-fy22-revenue-from-ops-rises-8-6-to-82-4k-crore/articleshow/95039815.cms",
-    "urlToImage": "https://img.etimg.com/thumb/msid-95039881,width-1070,height-580,imgsize-21132,overlay-economictimes/photo.jpg",
-    "publishedAt": "2022-10-22T23:54:00Z",
-    "content": "Samsung India's revenue from operations rose 8.6% to 82,451 crore in the financial year 2021-22 (FY22), driven by its mobile phone business, regulatory filings sourced from business intelligence plat… [+2200 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Bitcoin.com"
-    },
-    "author": "Kevin Helms",
-    "title": "Tesla CEO Elon Musk Says Recession Could Last Until Spring 2024 – Economics Bitcoin News - Bitcoin News",
-    "description": "Tesla CEO Elon Musk expects a global recession to last until the spring of 2024. Musk believes that North America’s in pretty good health.",
-    "url": "https://news.bitcoin.com/tesla-ceo-elon-musk-says-global-recession-could-last-until-spring-2024/",
-    "urlToImage": "https://static.news.bitcoin.com/wp-content/uploads/2022/10/elon-musk-recession.jpg",
-    "publishedAt": "2022-10-22T23:38:51Z",
-    "content": "Tesla and Spacex CEO Elon Musk expects a global recession to last until the spring of 2024. Musk added that his two companies are in good positions but many others are not. “Recessions do have a silv… [+3028 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Livemint"
-    },
-    "author": "Livemint",
-    "title": "Indraprastha Gas records 95% jump in Q2 revenue to ₹3,922 cr, PAT up 4% | Mint - Mint",
-    "description": "In Q2FY23, the company's revenue from operations stood at  ₹3,922.02 crore increasing by a whopping 94.55% as against  ₹2,015.99 crore in Q2 of FY22.",
-    "url": "https://www.livemint.com/companies/company-results/indraprastha-gas-records-95-jump-in-q2-revenue-to-rs-3-922-cr-pat-up-4-11666459339492.html",
-    "urlToImage": "https://images.livemint.com/img/2022/10/22/600x338/httpsblankpaperhtdigitalincms-backend-service-mtim_1666459720315_1666459720545_1666459720545.JPG",
-    "publishedAt": "2022-10-22T17:32:28Z",
-    "content": "Noida-based natural gas distributor, Indraprastha Gas garnered a standalone net profit of 416.15 crore for the quarter ending September 30, 2022 (Q2FY23) rising by 3.9% from 400.54 crore in the same … [+2067 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "NDTV News"
-    },
-    "author": null,
-    "title": "India's Economy Lights Up This Diwali After Covid Dampener. Here's Why - NDTV Profit",
-    "description": "Indian shoppers are back in force online and in stores, splurging this festive season after the coronavirus pandemic damped celebrations and consumption in previous years.",
-    "url": "https://www.ndtv.com/business/indias-economy-lights-up-this-diwali-after-covid-dampener-heres-why-3455879",
-    "urlToImage": "https://c.ndtvimg.com/2022-10/2r5po00g_diwali-afp_625x300_22_October_22.jpg",
-    "publishedAt": "2022-10-22T17:10:35Z",
-    "content": "With the economic recovery taking shape, Indian households expect to spend more. (Representational)\r\nIndian shoppers are back in force online and in stores, splurging this festive season after the co… [+3329 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Dsij.in"
-    },
-    "author": "Karan Dsij",
-    "title": "IDFC First Bank is the “next HDFC Bank” - Dalal Street Investment Journal",
-    "description": "With the bank’s profit after tax has grown consistently for the fifth consecutive quarter and the management is optimistic about maintaining their growth momentum on the basis of strong...",
-    "url": "https://www.dsij.in/dsijarticledetail/is-idfc-first-bank-the-next-hdfc-bank",
-    "urlToImage": "https://www.dsij.in/Portals/0/EasyDNNnews/27004/logo-idfc-first-bank-1200.jpg",
-    "publishedAt": "2022-10-22T16:22:04Z",
-    "content": "Is IDFC First Bank, the next HDFC Bank?\r\nIDFC First Bank has soared about 46 per cent in the last six months and it has been one of the top performing banks from the Indian Private sector banks space… [+3442 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Livemint"
-    },
-    "author": "Pooja Sitaram Jaiswar",
-    "title": "Tech Mahindra which paid 900% dividend in FY22 may surprise investors on 1st Nov | Mint - Mint",
-    "description": "Along with the dividend proposal, the company's board will also consider and approve the financial performance for the second quarter ending September 30, 2022 (Q2FY23).",
-    "url": "https://www.livemint.com/market/stock-market-news/tech-mahindra-which-paid-900-dividend-in-fy22-may-surprise-investors-on-1st-nov-11666453828209.html",
-    "urlToImage": "https://images.livemint.com/img/2022/10/22/600x338/369170800_0-16_1618420008632_1666453953472_1666453953472.jpg",
-    "publishedAt": "2022-10-22T15:55:44Z",
-    "content": "IT major, Tech Mahindra will be considering an interim dividend for FY23 on November 1. Along with the dividend proposal, the company's board will also consider and approve the financial performance … [+2950 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "YourStory"
-    },
-    "author": "Ayshwaria Lakshmi",
-    "title": "Ola is a place for ambitious people: Bhavish Aggarwal - YourStory",
-    "description": "Founder and Group CEO of Ola responds to the recent allegation of a \"hostile work culture\" at Ola Electric.",
-    "url": "https://yourstory.com/2022/10/ola-place-ambitious-people-bhavish-aggarwal/amp",
-    "urlToImage": "https://images.yourstory.com/cs/2/a9efa9c02dd911e9adc52d913c55075e/Final-01-05-1629128293683.png",
-    "publishedAt": "2022-10-22T15:45:00Z",
-    "content": "Responding to the allegation of a \"hostile work culture\" at Ola Electric, Bhavish Aggarwal, Founder and Group CEO, Ola, said Ola is a \"hardworking\" company and a place for people who are \"ambitious\".… [+2171 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Livemint"
-    },
-    "author": "Vipul Das",
-    "title": "Multibagger chemical stock declares 250% dividend, sales grew by 24% in Q2 | Mint - Mint",
-    "description": "With a market valuation of  ₹21,921.06 Cr, Navin Fluorine International Limited is a large-cap company that engages in the chemical industry.",
-    "url": "https://www.livemint.com/market/stock-market-news/multibagger-chemical-stock-declares-250-dividend-sales-grew-by-24-in-q2-11666451857858.html",
-    "urlToImage": "https://images.livemint.com/img/2022/10/22/600x338/KVP8IM6W_1600274980295_1600274984745_1666451908898_1666451908898.jpg",
-    "publishedAt": "2022-10-22T15:25:54Z",
-    "content": "With a market valuation of 21,921.06 Cr, Navin Fluorine International Limited is a large-cap company that engages in the chemical industry. One of the largest and most reputable Indian makers of spec… [+4094 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "NDTV News"
-    },
-    "author": null,
-    "title": "Akash Ambani, Wife Shloka Pray At Rajasthan's Shrinathji Temple Ahead Of 5G Launch - NDTV",
-    "description": "Reliance Jio chairman, Akash Ambani and his wife, Shloka Ambani offered prayers at Shrinathji Temple in Nathdwara, Rajasthan today. Akash Ambani also launched Jio 5G services in Rajasthan from the Shrinathji temple.",
-    "url": "https://www.ndtv.com/india-news/akash-ambani-wife-shloka-pray-at-rajasthans-shrinathji-temple-ahead-of-5g-launch-3455707",
-    "urlToImage": "https://c.ndtvimg.com/2022-10/iplqpcf8_akash-ambani-shloka-ambani-shrinathji-temple-ani_625x300_22_October_22.jpg",
-    "publishedAt": "2022-10-22T15:24:06Z",
-    "content": "Reliance Jio chairman, Akash and Shloka Ambani offered prayers at Shrinathji Temple.\r\nNew Delhi: Reliance Jio chairman, Akash Ambani and his wife, Shloka Ambani offered prayers at Shrinathji Temple i… [+1192 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "India.com"
-    },
-    "author": "Mohit Bhardwaj",
-    "title": "Hyundai i20 diesel to be DISCONTINUED by next year? New emission norms to kill various models - Zee News",
-    "description": "Yes! It is not out and loud - new stringent RDE (Real Driving Emission) norms are set to kick in by April 1, next year. Therefore, carmakers will tune their cars to comply with new emission norms.",
-    "url": "https://zeenews.india.com/auto/hyundai-i20-diesel-to-be-discontinued-by-next-year-new-emission-norms-to-kill-various-models-2525541.html",
-    "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2022/10/22/1106930-hyundai-i20.jpg",
-    "publishedAt": "2022-10-22T14:44:03Z",
-    "content": "Yes! It is not out and loud - new stringent RDE (Real Driving Emission) norms are set to kick in by April 1, next year. Therefore, carmakers will tune their cars to comply with new emission norms. Ho… [+1559 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Analytics Insight"
-    },
-    "author": null,
-    "title": "How IT Technologies are Extending the Work From Home Scenario - Analytics Insight",
-    "description": null,
-    "url": "https://www.analyticsinsight.net/how-it-technologies-are-extending-the-work-from-home-scenario/",
-    "urlToImage": null,
-    "publishedAt": "2022-10-22T14:37:15Z",
-    "content": null
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Moneycontrol"
-    },
-    "author": "Nikhil Patwardhan",
-    "title": "Unacademy’s losses nearly double to Rs 2,848 crore in FY22 on higher ESOP costs - Moneycontrol",
-    "description": "Unacademy, however, reported an over 80 percent rise in operating revenue to Rs 719 crore from Rs 398 crore a year earlier. Its total income surged to Rs 845 crore in FY22 from Rs 464 crore a year earlier, thanks to a 2X rise in its other income to Rs 125 cro…",
-    "url": "https://www.moneycontrol.com/news/business/startup/unacademys-losses-nearly-double-to-rs-2848-crore-in-fy22-on-higher-esop-costs-9377601.html",
-    "urlToImage": "https://images.moneycontrol.com/static-mcnews/2021/08/WhatsApp-Image-2021-08-02-at-9.28.13-AM-770x433.jpeg",
-    "publishedAt": "2022-10-22T14:32:16Z",
-    "content": "SoftBank-backed Unacademys losses nearly doubled in FY22 (2021-22) as the edtech startups ESOP (employee stock ownership plan) costs rose 2.5X during the period, in another instance of a startup repo… [+5049 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Livemint"
-    },
-    "author": "Vipul Das",
-    "title": "Multibagger stock climbs 600% in 3 years, Board recommends 2:1 bonus shares | Mint - Mint",
-    "description": "Commercial Syn Bags Ltd is a small-cap firm that competes in the packaging industry with a market valuation of  ₹405.91 crore.",
-    "url": "https://www.livemint.com/market/stock-market-news/multibagger-stock-climbs-600-in-3-years-board-recommends-2-1-bonus-shares-11666448160196.html",
-    "urlToImage": "https://images.livemint.com/img/2022/10/22/600x338/TAIWAN-MAICOIN-8_1663256785336_1663256785336_1666448186088_1666448186088.jpg",
-    "publishedAt": "2022-10-22T14:20:27Z",
-    "content": "Commercial Syn Bags Ltd is a small-cap firm that competes in the packaging industry with a market valuation of 405.91 crore. The company is a leading manufacturer and exporter of FIBC, Big Bags, and … [+4761 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Livemint"
-    },
-    "author": "Pooja Sitaram Jaiswar",
-    "title": "Gold vs Bitcoin: Which haven is a better investment this Diwali? | Mint - Mint",
-    "description": "Gold is also seen as a so-called haven against hedging returns amidst macroeconomic uncertainties. But gold is not alone seen as a haven anymore.",
-    "url": "https://www.livemint.com/money/personal-finance/gold-vs-bitcoin-which-haven-is-a-better-investment-this-diwali-11666446830567.html",
-    "urlToImage": "https://images.livemint.com/img/2022/10/22/600x338/Bitcoin_1663051322352_1666447108857_1666447108857.JPG",
-    "publishedAt": "2022-10-22T14:00:08Z",
-    "content": "The Diwali season has kickstarted with a bang from Saturday onward with Dhanteras where usually the demand for gold is traditionally on the rise. In India, buying gold on Dhanteras is somewhat very c… [+4974 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Moneycontrol"
-    },
-    "author": "Moneycontrol News",
-    "title": "ICICI Bank board reappoints Sandeep Bakhshi as MD and CEO for three years - Moneycontrol",
-    "description": "The current tenure of Bakhshi was until October 3, 2023. The re-appointment period to start from October 4, 2023.",
-    "url": "https://www.moneycontrol.com/news/business/icici-bank-board-reappoints-sandeep-bakhshi-as-md-and-ceo-for-three-years-9377461.html",
-    "urlToImage": "https://images.moneycontrol.com/static-mcnews/2021/04/ICICI-Bank-for-insurance-story-770x433.jpg",
-    "publishedAt": "2022-10-22T12:51:38Z",
-    "content": "The board of directors of ICICI Bank has re-appointed Sandeep Bakhshi as the bank's managing director (MD) and chief executive officer (CEO) for a period of three years, the bank said in a regulatory… [+603 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Moneycontrol"
-    },
-    "author": "PTI",
-    "title": "Reliance becomes first Indian company to post earnings call on metaverse - Moneycontrol",
-    "description": "The metaverse earnings call, which can be accessed through any device (even a smartphone), was produced in partnership with GMetri — a no-code metaverse creation platform, sources said. One does not need to wear an AR/VR headgear to access it.",
-    "url": "https://www.moneycontrol.com/news/business/reliance-becomes-first-indian-company-to-post-earnings-call-on-metaverse-9377291.html",
-    "urlToImage": "https://images.moneycontrol.com/static-mcnews/2021/10/reliance-industries-770x433.jpg",
-    "publishedAt": "2022-10-22T12:01:41Z",
-    "content": "Reliance Industries Limited (RIL) posted the proceedings of its second quarter earnings call on the metaverse, becoming the first Indian firm to use the medium to engage with its stakeholders.\r\nThe m… [+1785 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Thewire.in"
-    },
-    "author": null,
-    "title": "Never Mind the Dollar Strengthening, a Diving Rupee Is Wrecking Domestic Macroeconomic Stability - The Wire",
-    "description": "Efforts to prop up the currency have failed to significantly keep it from hovering near the all-time low amid a dovish pivot by the RBI, soaring inflation, and trade imbalances.",
-    "url": "https://thewire.in/economy/never-mind-the-dollar-strengthening-a-diving-rupee-is-wrecking-domestic-macroeconomic-stability",
-    "urlToImage": "https://cdn.thewire.in/wp-content/uploads/2021/02/01212909/download.jpeg",
-    "publishedAt": "2022-10-22T12:00:39Z",
-    "content": "The Indian rupee is at 82.7 per dollar, rebounding from a record low of 83 on October 20, amid reports that the Reserve Bank of India resumed its dollar selling activity through state-run banks to su… [+8446 chars]"
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "Carandbike.com"
-    },
-    "author": null,
-    "title": "Ola S1 Air Electric Scooter Launched In India; Has Introductory Price Of Rs. 79,999 - carandbike",
-    "description": "Ola Electric launched its S1 Air electric scooter today, with an introductory price of Rs. 79,999. It is applicable only for people who book the scooter on or before October 24, 2022.",
-    "url": "https://www.carandbike.com/news/ola-s1-air-electric-scooter-launched-in-india-has-introductory-price-of-rs-79-999-3203162",
-    "urlToImage": "https://images.carandbike.com/cms/articles/3203151/articles/3203162/small_Ola_S1_Air_2022_10_22_T10_41_01_029_Z_d098d5e86e.jpeg",
-    "publishedAt": "2022-10-22T11:26:15Z",
-    "content": "Ola Electric continued its electric scooter offensive with the new S1 Air model. It has been launched at an introductory price of Rs. 79,999, which is applicable for those who book the scooter on or … [+2462 chars]"
-    }
-    ]
-
   constructor(){
     super();
     console.log("Hello I am a constructor from News component");
     this.state = {
-      articles : this.articles,
-      loading: false
+      articles : [],
+      loading: false,
+      page:1
     }
   }
-
-  async componentDidMount(){
-    console.log("Cmd");
-    let url = "https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=151da54f0d5f4cd4884e7e7571f97d60";
+  handlePrevClick = async()=>{
+    console.log("handlePrevClick");
+    let url = `https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=151da54f0d5f4cd4884e7e7571f97d60&page=${this.state.page - 1}&pageSize=20`;
     let data = await fetch(url);
     console.log("data=== >",data); 
     let parseData = await data.json();
     console.log("parseData=== >",parseData); 
     this.setState({
+       page : this.state.page - 1,
        articles : parseData.articles
-    })
+    }) 
+  }
 
+  handleNextClick = async()=>{
+    console.log("handleNextClick");
+    if(this.state.page + 1 > Math.ceil(this.state.totalResults/20)){
+      console.log("totalResults: ",this.state.totalResults);
+    }else{
+      let url = `https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=151da54f0d5f4cd4884e7e7571f97d60&page=${this.state.page + 1}&pageSize=20`;
+      let data = await fetch(url);
+      console.log("data=== >",data); 
+      let parseData = await data.json();
+      console.log("parseData=== >",parseData); 
+      this.setState({
+         page : this.state.page + 1,
+         articles : parseData.articles
+      }) 
+    }
+     
+  }
+
+  async componentDidMount(){
+    console.log("Cmd");
+    let url = "https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=151da54f0d5f4cd4884e7e7571f97d60&page=1&pageSize=20";
+
+   let data = await fetch(url);
+    console.log("data=== >",data); 
+    let parseData = await data.json();
+    console.log("parseData=== >",parseData); 
+    this.setState({
+       articles : parseData.articles,
+       totalResults : parseData.totalResults
+    }) 
   }
   render() {
     console.log("render.........")
@@ -294,12 +62,16 @@ export class News extends Component {
       <div className="container my-3">
         <h2>NewsMonkay - Top Headlines</h2>
         <div className="row  my-3">
-        {this.state.articles.map((element)=>{
+       {this.state.articles.map((element)=>{
             return <div className="col-md-4"  key = {element.url}>
             <NewsItem title={element.title.slice(0,40)} description={element.description?element.description.slice(0,80):element.description} 
             imageUrl = {element.urlToImage?element.urlToImage:"https://as2.ftcdn.net/v2/jpg/03/65/40/15/1000_F_365401520_zLTViwtTegqkr11c5uBElk8SfgTL8Uty.jpg"} newsUrl = {element.url}/>
             </div>
-        })}
+        })} 
+        </div>
+        <div className="container d-flex justify-content-between">
+          <button disable={this.state.page<=1} type="button" className="btn btn-primary" onClick={this.handlePrevClick} > &larr; Previous</button>
+          <button type="button" className="btn btn-primary" onClick={this.handleNextClick}>Next 	&rarr;</button>
         </div>
       </div>
     )
