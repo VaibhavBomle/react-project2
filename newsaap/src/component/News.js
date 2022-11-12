@@ -6,15 +6,16 @@ import PropTypes from 'prop-types'
 export class News extends Component {
   static defaultProps = {
     country : 'in',
-    page :8,
+    page :1,
     category : 'general'
-
   }
 
   static propsTypes = { 
     country : PropTypes.string,
     pageSize : PropTypes.number,
-    category : PropTypes.string
+    category : PropTypes.string,
+    page : PropTypes.number
+
   }
 
   constructor(){
@@ -28,7 +29,7 @@ export class News extends Component {
   }
   handlePrevClick = async()=>{
     console.log("handlePrevClick");
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=151da54f0d5f4cd4884e7e7571f97d60&page=${this.state.page - 1}&pageSize=${this.props.pageSize}`;
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=daf8f581ce8c43ed902e74ca1fadf5fa&page=${this.state.page - 1}&pageSize=${this.props.pageSize}`;
     this.setState({loading : true});
     let data = await fetch(url);
     console.log("data=== >",data); 
@@ -39,13 +40,14 @@ export class News extends Component {
        articles : parseData.articles,
        loading : false
     }) 
+    console.log("Page: ==========>",this.state.page)
   }
 
   handleNextClick = async()=>{
     console.log("handleNextClick");
     if(!(this.state.page + 1 > Math.ceil(this.state.totalResults/20))){
       console.log("totalResults: ",this.state.totalResults);
-      let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=151da54f0d5f4cd4884e7e7571f97d60&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
+      let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=daf8f581ce8c43ed902e74ca1fadf5fa&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
       this.setState({loading : true});
       let data = await fetch(url);
       console.log("data=== >",data); 
@@ -58,12 +60,11 @@ export class News extends Component {
          loading : false
       }) 
     }
-     
   }
 
   async componentDidMount(){
     console.log("Cmd");
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=151da54f0d5f4cd4884e7e7571f97d60&page=1&pageSize=${this.props.pageSize}`;
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=daf8f581ce8c43ed902e74ca1fadf5fa&page=1&pageSize=${this.props.pageSize}`;
 
    let data = await fetch(url);
     console.log("data=== >",data); 
@@ -84,15 +85,16 @@ export class News extends Component {
        {!this.state.loading && this.state.articles.map((element)=>{
             return <div className="col-md-4"  key = {element.url}>
             <NewsItem title={element.title.slice(0,40)} description={element.description?element.description.slice(0,80):element.description} 
-            imageUrl = {element.urlToImage?element.urlToImage:"https://as2.ftcdn.net/v2/jpg/03/65/40/15/1000_F_365401520_zLTViwtTegqkr11c5uBElk8SfgTL8Uty.jpg"} newsUrl = {element.url}/>
+            imageUrl = {element.urlToImage?element.urlToImage:"https://as2.ftcdn.net/v2/jpg/03/65/40/15/1000_F_365401520_zLTViwtTegqkr11c5uBElk8SfgTL8Uty.jpg"} newsUrl = {element.url}
+            author = {element.author} date = {element.publishedAt}/>
             </div>
         })} 
         </div>
         <div className="container d-flex justify-content-between">
-          <button disable={this.state.page<=1} type="button" className="btn btn-primary" onClick={this.handlePrevClick} > &larr; Previous</button>
-          <button type="button" className="btn btn-primary" onClick={this.handleNextClick}>Next 	&rarr;</button>
+          <button  disable={(this.state.page <=1).toString()} type="button" className="btn btn-primary" onClick={this.handlePrevClick} > &larr; Previous</button>
+          <button  type="button" className="btn btn-primary" onClick={this.handleNextClick}>Next 	&rarr;</button>
         </div>
-      </div>
+      </div> 
     )
   }
 }
