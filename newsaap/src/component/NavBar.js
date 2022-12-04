@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class NavBar extends Component {
+const NavBar = ()=> {
 
-  render() {
     return (
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
@@ -26,7 +25,7 @@ export class NavBar extends Component {
       </div>
     </nav>
     )
-  }
+  
 }
 
 export default NavBar
